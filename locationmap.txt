@@ -1,0 +1,34 @@
+	<noscript>
+		<img src="//maps.google.com/maps/api/staticmap?center=54.76738702612439,-1.5703743696212769&amp;zoom=16&amp;size=640x550&amp;maptype=hybrid&amp;markers=color:red%7Clabel:1%7C,%7C&amp;sensor=false" alt="Map Image">
+		<ol>
+					<li class="marker"
+				data-id="129"
+				data-latitude="54.76738702612439"
+				data-longitude="-1.5703743696212769">
+				<span class="title">Engineering and Computing Sciences, School of</span>
+				<span class="info">"</span>
+			</li>
+				</ol>
+	</noscript>
+	
+	<script type="text/javascript">
+	if (typeof MAP_ON_PAGE === 'undefined') {
+		var MAP_ON_PAGE = true;
+	}
+	</script>
+	
+	<div id="map123826" class="map googlemap" style="height:550px;"
+		data-id="123826" data-latitude="54.76738702612439" data-longitude="-1.5703743696212769"
+		data-zoom="16" data-map-type-id="HYBRID">
+
+			</div>
+	<ol id="map123826_markers" style="display:none;">
+			<li class="marker"
+			data-id="129"
+			data-latitude="54.76738702612439"
+			data-longitude="-1.5703743696212769">
+			<span class="title">Engineering and Computing Sciences, School of</span>
+			<span class="info"></span>
+		</li>
+		</ol>
+</div>
