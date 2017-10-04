@@ -13,5 +13,5 @@ The criteria for acceptance
 
 Author(s) of an accepted abstract will give a 15 minute presentation at the conference. Proposals for alternative sessions e.g. demonstrations, discussions, panels etc are also welcome.
 
-To submit an abstract or information on an alternative session please use EasyChair (link to follow).
+To submit an abstract or information on an alternative session please use EasyChair at <https://easychair.org/conferences/?conf=cep2018>
 
