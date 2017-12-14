@@ -4,31 +4,43 @@ include "papers.php";
 
 $sessions=array(
 array (
-    "1" => "11:00",
-    "2" => "11:20",
-    "3" => "11:40",
-    "4" => "12:00",
-    "5" => "12:20"),
-
+    "1a" => "13:05",
+    "1b" => "13:25",
+    "1c" => "13:45",
+),
+array(
+    "2a" => "14:15",
+    "2b" => "14:35",
+    "2c" => "14:55",
+),
+array(
+    "3a" => "15:55",
+    "3b" => "16:15",
+    "3c" => "16:35"),
 array (
-    "6" => "13:55",
-    "7" => "14:15",
-    "8" => "14:35",
-    "9" => "14:55"),
-
+    "4a" => "17:20",
+    "4b" => "17:35",
+    "4c" => "17:50"),
 array (
-    "10" => "15:30",
-    "11" => "15:50",
-    "12" => "16:10")
+    "5a" => "9:00",
+    "5b" => "9:20",
+    "5c" => "9:40"),
+array (
+    "6a" => "11:10",
+    "6b" => "11:30"),
+array (
+    "7a" => "12:00",
+    "7b" => "12:20",
+    "7c" => "12:40"),
+
 );
 
 $page->which = "programme";
 $page->title = "Programme";
 $page->strapline = "<h2>Timings and topics</h2>";
-$page->content = $page->load("programmeholding","md");
-//$page->content .= sessions($sessions);
+$page->content .= sessions($sessions);
 //$page->content .= $page->load("keynotes","html");
-//$page->content .= abstracts();
+$page->content .= abstracts();
 
 
 //$times is an array with keys as session numbers and values as session times 
@@ -37,16 +49,16 @@ function session($times){
     $ret = "";
     foreach($times as $slot => $time){
         $ret .= "<tr><td class='active'>$time</td>\n";
-        foreach(array("a","b","c") as $room){
-            $paperTime = $slot.$room;
+
+            $paperTime = $slot;
             $papern = $paperTimes[$paperTime];
             $paper = $papers[$papern];
-            $ret .= "<td><a class='plainlink' href='#abstract$papern'>" ;
+            $ret .= "<td colspan='2'><a class='plainlink' href='#abstract$papern'>" ;
             $ret .= Markdown($paper['title']) . "</a>";
             $authors = $paper['authors'];
             $ret .= "<div class='small'>".authors($authors). "</div>";
             $ret .= "</td>\n";
-        }
+
         $ret .= "</tr>\n";
     }
     return $ret;
@@ -72,33 +84,60 @@ function authors($authors){
 function sessions($sessions){
     $ret="
 <p>* Presenting authors are marked with an asterisk.</p>
-<h1 class='logotext'>Morning Programme</h1>
+<h1 class='logotext'>Thursday 11th January</h1>
 <table class='ui celled table'>
 <tbody>
-    <tr><td class='active'>10:00</td><td>Arrival and registration</td><td class='active'>Christopherson building entrance</td><td>Coffee in atrium</td></tr>
-    <tr><td class='active'>10:30</td><td colspan='2'>Welcome <div class='person'>Sarah Drummond and Steven Bradley <div class='inst'>Durham University</div></div></td><td class='active'>E005 Christopherson</td></tr>
-    <tr><td class='active'>10:35</td><td colspan='2'>Keynote address <div class='person'>Prof Sally Fincher<div class='inst'>University of Kent</div></div></td><td class='active'>E005</td></tr>
-    <tr><td class='one wide'>Session 1</td><td class='active five wide'>Session 1A<br/> E005 <br/>Chair: Steven Bradley</td><td class='active five wide'>Session 1B<br/> E101 <br/>Chair: Stuart Charters</td><td class='active five wide'>Session 1C<br/>E102 <br/>Chair: Kay Hack</td></tr>";
+<tr><td></td><td class='active'>Pre-conference workshop</td></td></tr>
+    <tr><td class='active'>10:30</td><td> What's happening in CompEd? Members of research groups to give a short
+summary (no more than five minutes) of computing education research
+activity that is taking place at their institution.<br/>
+This may include, but is not limited to:
+<ul>
+<li>an ongoing programme work;</li>
+<li>work of colleagues you wish to recognise;</li>
+<li>PhD projects;</li>
+<li>projects for which partners are sought (or requests for data
+contributions);</li>
+<li>ideas to further activity in computing education research in the UK.</li>
+</ul>
+
+After the presentations, there will be time for more general discussion
+about current work, the funding landscape and potential future directions. If you would like to join this session, please submit a short summary (2-3 sentences) to this form: <a href='https://goo.gl/forms/e4Jdm2ef2vavaFzm2'>https://goo.gl/forms/e4Jdm2ef2vavaFzm2</a> by mid-day Friday 22nd December.</td><td class='active'>E102 Christopherson building</td></tr>
+<tr><td></td><td class='active'>Main conference</td><td></td></tr>
+    <tr><td class='active'>12:00</td><td>Arrival and registration</td><td class='active'>Christopherson building entrance</td></tr>
+    <tr><td class='active'>12:00</td><td>Lunch</td><td class='active'>Atrium</td></tr>
+    <tr><td class='active'>13:00</td><td>Welcome <div class='person'>Sarah Drummond and Steven Bradley <div class='inst'>Durham University</div></div></td><td class='active'>E102 Christopherson</td></tr>
+    <tr><td class='two wide'></td><td class='active fourteen wide'>Session 1: Curriculum</td><td class='active'>E102 </td></tr>";
 
         $ret.= session($sessions[0]);
-        $ret .= "<tr class='active'><td>12:40</td><td colspan='2'>Lunch</td><td>Atrium, Higginson Building</td></tr>\n";
+        $ret .= "<tr><td></td><td class='active'>Session 2: Ethics and Identity</td><td class='active'>E102 </td></tr>\n";
+        $ret.= session($sessions[1]);
+        $ret .= "<tr><td>15:25</td><td class='active'>Poster Session 1</td></tr>\n";
+        $ret .= "<tr><td></td><td class='active'>Session 3: Programming</td><td class='active'>E102 </td></tr>\n";
+        $ret.= session($sessions[2]);
+
+        
+        $ret .= "<tr><td>16:55</td><td class='active'>Refreshment Break</td></tr>\n";
+
+        $ret .= "<tr><td></td><td class='active'>Session 4: Pedagogy</td><td class='active'>E102 </td></tr>\n";
+        $ret.= session($sessions[3]);
+        
         $ret .="</tbody></table>";
     
-        $ret .= "<h1 class='logotext'>Afternoon Programme</h1>
-<table class='ui celled table'>
-<tbody>
-    <tr><td class='active'>13:30</td><td colspan='2'>Keynote address <div class='person'>Dr Kay Hack<div class='inst'>HEA</div></div></td><td class='active'>E005</td></tr>
-    <tr><td class='one wide'>Session 2</td><td class='active five wide'>Session 2A<br/> E005 <br/>Chair: Helen Donelan</td><td class='active five wide'>Session 2B<br/> E101 <br/>Chair: Sally Fincher</td><td class='active five wide'>Session 2C<br/> E102 <br/>Chair: Su White</td></tr>";
-    
-    $ret.= session($sessions[1]);
+        $ret .= "<h1 class='logotext'>Friday 12th January</h1><table class='ui celled table'><tbody>";
 
-    $ret .= "<tr class='active'><td colspan='4'>Refreshment Break</td></tr>\n";
+        $ret .= "<tr><td></td><td class='active'>Session 5: Transitions</td><td class='active'>E102 </td></tr>\n";
+        $ret.= session($sessions[4]);
+        
+        $ret .= "<tr><td>10:00</td><td class='active'>Poster Session 2</td></tr>\n";
+        $ret .= "<tr><td>10:45</td><td class='active'>Refreshment Break</td></tr>\n";
 
-    $ret.= "<tr><td>Session 3</td><td class='active'>Session 3A<br/> E005 <br/>Chair: Steve Doswell</td><td class='active'>Session 3B<br/> E101 <br/>Chair: Sally Smith</td><td class='active'>Session 3C<br/> E102 <br/>Chair: Lindsay Marshall</td></tr>\n";
-    $ret.= session($sessions[2]);
-    $ret .= "<tr><td class='active'>16:30</td><td colspan='2'>Final Remarks</td><td class='active'>E005</td></tr>\n";
-    
-    $ret .="</tbody></table>";
+        $ret .= "<tr><td></td><td class='active'>Session 6: Outreach</td><td class='active'>E102 </td></tr>\n";
+        $ret.= session($sessions[5]);
+
+        $ret .= "<tr><td></td><td class='active'>Session 7: Assessment</td><td class='active'>E102 </td></tr>\n";
+        $ret.= session($sessions[6]);
+        $ret .="</tbody></table>";
     
     return $ret;
 }

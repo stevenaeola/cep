@@ -1,0 +1,55 @@
+
+Curriculum
+--------
+
+Neil Gordon. Sustainable Computing: a home for LSEP, Commercial practice and Research skills	    
+David Bowers and David Morse. Including IT service management in the Computing curriculum: a caricature approach.	
+Karen Hunsdale. Intelligent Agents for Education	
+
+
+Ethics and Identity
+--------------------------
+
+David Bowers. “It’s only a computing project – so there can’t be any ethical issues…”	
+Ella Taylor-Smith, Sally Smith, Alison Varey, Debbie Meharg and Colin Smith. No money worries: new student identities for Graduate Level Apprentices	
+Shelagh Keogh, Jackie Adamson and Jill Bradnum. The enemies within - inhibitors to learning	
+
+
+
+Programming
+----------
+
+Matthew Poole. Blocks-based programming for introductory programming in Python 
+Sajjad Hussain, Qammer H. Abbasi, Muhammad Ali Imran and Junaid Qadir. Enhancing computer programming skills through Virtual Reality 
+Sue Sentance and Jane Waite. Supporting the learning of programming with the PRIMM approach	 
+
+
+Pedagogy
+--------
+
+Muhammad Zeeshan Shakir, Muhammad Ali Imran and Pablo Casaseca. Self regulated Learning in Engineering and Computing Classrooms	
+Tom Prickett. Learner engagement in larger computer science classes	       
+Sardar Jaf. Promoting learning by going against students’ preference to learning	
+
+Transitions
+----------
+
+Debbie Meharg, Ella Taylor-Smith and Alison Varey. The Associate Student Project celebrates five years of student transitions from further to higher education	
+Samia Kamal. Developing a digital environment to enhance the pre-arrival experience: transition into higher education.    
+Shelley Usher. Student Transition Project		
+
+
+
+Outreach
+--------
+
+Martin Loomes. Reaching out - reaching in.	
+Steven Spencer and Robert Powell. Widening Participation - ‘Stretching the Middle’
+
+Assessment
+--------
+
+Thomas Spangsberg, Sebastian Dziallas and Sally Fincher. Puzzling things out: exploring the predictive quality of Bebras challenge questions
+Steven Bradley. Identifying plagiarism
+Tony Gurney. The Student Becomes the Master: Peer Assessment in Computing
+
