@@ -1,3 +1,3 @@
 <?php
-header("Location: 2017/index.php");
+header("Location: 2018/index.php");
 ?>

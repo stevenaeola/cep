@@ -6,7 +6,7 @@ $sessions=array(
 array (
     "1a" => "13:05",
     "1b" => "13:25",
-    "1c" => "13:45",
+//    "1c" => "13:45",
 ),
 array(
     "2a" => "14:15",
@@ -19,12 +19,13 @@ array(
     "3c" => "16:35"),
 array (
     "4a" => "17:20",
-    "4b" => "17:35",
-    "4c" => "17:50"),
+    "4b" => "17:40",
+),
 array (
     "5a" => "9:00",
     "5b" => "9:20",
-    "5c" => "9:40"),
+    "5c" => "9:40",
+),
 array (
     "6a" => "11:10",
     "6b" => "11:30"),
@@ -107,7 +108,7 @@ about current work, the funding landscape and potential future directions. If yo
     <tr><td class='active'>12:00</td><td>Arrival and registration</td><td class='active'>Christopherson building entrance</td></tr>
     <tr><td class='active'>12:00</td><td>Lunch</td><td class='active'>Atrium</td></tr>
     <tr><td class='active'>13:00</td><td>Welcome <div class='person'>Sarah Drummond and Steven Bradley <div class='inst'>Durham University</div></div></td><td class='active'>E102 Christopherson</td></tr>
-    <tr><td class='two wide'></td><td class='active fourteen wide'>Session 1: Curriculum</td><td class='active'>E102 </td></tr>";
+    <tr><td class='two wide'></td><td class='active ten wide'>Session 1: Curriculum</td><td class='active two wide'>E102 </td></tr>";
 
         $ret.= session($sessions[0]);
         $ret .= "<tr><td></td><td class='active'>Session 2: Ethics and Identity</td><td class='active'>E102 </td></tr>\n";
@@ -123,20 +124,24 @@ about current work, the funding landscape and potential future directions. If yo
         $ret.= session($sessions[3]);
         
         $ret .="</tbody></table>";
-    
+
         $ret .= "<h1 class='logotext'>Friday 12th January</h1><table class='ui celled table'><tbody>";
 
-        $ret .= "<tr><td></td><td class='active'>Session 5: Transitions</td><td class='active'>E102 </td></tr>\n";
+        $ret .= "<tr><td class='two wide'></td><td class='active ten wide'>Session 5: Transitions and outreach</td><td class='active two wide'>E102 </td></tr>\n";
         $ret.= session($sessions[4]);
         
         $ret .= "<tr><td>10:00</td><td class='active'>Poster Session 2</td></tr>\n";
         $ret .= "<tr><td>10:45</td><td class='active'>Refreshment Break</td></tr>\n";
 
-        $ret .= "<tr><td></td><td class='active'>Session 6: Outreach</td><td class='active'>E102 </td></tr>\n";
+        $ret .= "<tr><td></td><td class='active'>Session 6: Assessment I</td><td class='active'>E102 </td></tr>\n";
         $ret.= session($sessions[5]);
 
-        $ret .= "<tr><td></td><td class='active'>Session 7: Assessment</td><td class='active'>E102 </td></tr>\n";
+        $ret .= "<tr><td></td><td class='active'>Session 7: Assessment II</td><td class='active'>E102 </td></tr>\n";
         $ret.= session($sessions[6]);
+
+        $ret.= "<tr><td class='active'>13:00</td><td>Lunch</td><td class='active'>Atrium</td></tr>";
+        $ret.= "<tr><td class='active'>14:00</td><td>Conference close</td><td class='active'></td></tr>";
+
         $ret .="</tbody></table>";
     
     return $ret;

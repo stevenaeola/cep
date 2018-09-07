@@ -49,7 +49,7 @@ We present some challenges and questions encountered during the Open University�
 
 We present our solution to these challenges: a \"caricature”\" pedagogy that emphasises the intended outcomes and benefits of IT service management, rather than its nomenclature, based on the classic ITIL service lifecycle. Our experience, including student reaction, suggests that this approach could enable the wider adoption of itSM teaching in university computing courses.",
     ),
-    
+    /*
     array(
         'time' => '1c',
         'authors' => array(
@@ -67,12 +67,12 @@ Artificial intelligence within teaching and learning is an opportunity to seek n
 
 The use of AI agents using natural language dialogue may provide a means to support different types of conversations and thus learning styles. The premise for such agents is to guide students through the questioning process as opposed to simply proving an answer. Students will gain independence by answering questions for themselves through appropriate dialogue.",
     ),
-    
+    */
     array(
         'time' => '2a',
         'authors' => array(
             array('firstName' => 'David',
-            'lastName' => 'Bowers',
+            'lastName' => 'Bowers (by Skype)',
             'email' => '',
             'department' => '',
         'institution' => 'The Open University	'
@@ -233,7 +233,7 @@ This presentation will describe our current progress in the development of PyBlo
     ),
     
     array(
-        'time' => '4a',
+        'time' => '6b',
         'authors' => array(
             array('firstName' => 'Muhammad Zeeshan',
             'lastName' => 'Shakir',
@@ -274,7 +274,7 @@ This presentation will describe our current progress in the development of PyBlo
     ),
     
     array(
-        'time' => '4c',
+        'time' => '4a',
         'authors' => array(
             array('firstName' => 'Sardar',
             'lastName' => 'Jaf',
@@ -294,7 +294,7 @@ In our study, we conducted a survey and in total 33 students responded. We found
     ),
 
     array(
-        'time' => '5a',
+        'time' => '5b',
         'authors' => array(
             array('firstName' => 'Debbie',
             'lastName' => 'Meharg',
@@ -320,12 +320,12 @@ In our study, we conducted a survey and in total 33 students responded. We found
 
 The ASP partners agree articulation routes between specific HND courses, at college, and specific BSc/BEng courses at university, ensuring that, students entering university in third year have the skills and knowledge necessary to successfully complete the upcoming modules. Associate Students are matriculated into the university from their first year at FE college and have a guaranteed place on their university programme. Their student card gives them the same access to resources as other university students, including the libraries, fitness centres, and our 24/7 computing lab. University staff provide workshops and lectures to bridge the gap between the college and university experience, including: visits to colleges to provide academic referencing workshops and support to get paid work placements; opportunities to join lectures at the university; specific open and induction days for direct entry students. Once students are at university, ASP facilitates peer-to-peer support through buddy schemes; pizza lunches provide additional opportunities to chat with peers and staff and identify any specific problems. Throughout, quantitative and qualitative research gathers information about the students' needs and perspectives, around transitioning into university and the usefulness of ASP interventions. This presentation shares the insights from this scheme, as universities strive to widen access, improve graduate diversity, and address ICT skills gaps.",
     ),
-	        
+    
     array(
-        'time' => '5b',
+        'time' => '5a',
         'authors' => array(
             array('firstName' => 'Samia',
-            'lastName' => 'Kamal',
+            'lastName' => 'Kamal (By Skype)',
             'email' => '',
             'department' => '',
         'institution' => 'Oxford Brookes University	'
@@ -341,11 +341,17 @@ PASE Hub was a pilot for developed in the department of Computing and Communicat
 The project evaluation has highlighted valuable findings and provided insight to student expectations.",
     ),
     
+    /*
     array(
         'time' => '5c',
         'authors' => array(
             array('firstName' => 'Shelley',
             'lastName' => 'Usher',
+            'email' => '',
+            'department' => '',
+            ),
+            array('firstName' => 'Petronella',
+            'lastName' => 'Beaukman',
             'email' => '',
             'department' => '',
         'institution' => 'University of Portsmouth'
@@ -369,7 +375,8 @@ The project generated a visual 'Computing History timeline' display, adding aest
 
 The long-term value would be to embed and develop these initial transition skills throughout the duration of their degree.",
     ),
-    
+    */
+    /*
     array(
         'time' => '6a',
         'authors' => array(
@@ -387,21 +394,21 @@ One of the challenges facing institutions like Middlesex is developing strategie
 
 Our approach has been to develop a strategic approach to competitions and outreach that makes these an integrated, if optional, part of our curriculum. By \"outreach\" we do not simply mean working with schools, bit also large public engagement events involving huge numbers of visitors, such as New Scientist Live, The Skills Show and SmashFest. Over the years we have developed to a position where we can quickly assemble teams of up to 100 students capable of working together, across years and programmes, to develop activities, set them up in venues such as the EXCEL Centre, the 02 arena, or City Hall, and engage with visitors over several days. This has led to the emergence of role models amongst the student body, with excellent employment skills, who are developing into potential graduate assistants and keen to help develop future cohorts of students. This, in turn, raises self esteem as the whole student body sees what their friends have achieved.",
     ),
-    
+    */
     array(
-        'time' => '6b',
+        'time' => '5c',
         'authors' => array(
-            array('firstName' => '',
-            'lastName' => '',
+            array('firstName' => 'Steven',
+            'lastName' => 'Spencer',
             'email' => '',
             'department' => '',
 //        'institution' => ''
             ),
-            array('firstName' => '',
-            'lastName' => '',
+            array('firstName' => 'Robert',
+            'lastName' => 'Powell',
             'email' => '',
             'department' => '',
-        'institution' => ''
+        'institution' => 'Durham University'
             ),
 ),
         'title' => 'Widening Participation - \'Stretching the Middle\'',
@@ -439,9 +446,9 @@ A student led visit to St Mary’s College and an adapted first year lecture in 
             ),
 ),
         'title' => 'Puzzling things out: exploring the predictive quality of Bebras challenge questions',
-        'abstract' => "The Year in Computing is a new programme at the School of Computing at the University of Kent (https://www.cs.kent.ac.uk/ug/year-in-computing.html). It is targeted at students who are between Stage 2 and 3 (or have completed Stage 3) of their undergraduate studies in any discipline at the University of Kent. Year in Computing students spend a year studying exclusively within the School of Computing and are taught together as a single cohort.
+        'abstract' => "The Year in Computing is a new programme at the School of Computing at the University of Kent (<https://www.cs.kent.ac.uk/ug/year-in-computing.html>). It is targeted at students who are between Stage 2 and 3 (or have completed Stage 3) of their undergraduate studies in any discipline at the University of Kent. Year in Computing students spend a year studying exclusively within the School of Computing and are taught together as a single cohort.
 
-The programme has concluded its first year and the second cohort is currently well underway. Following last year’s presentation at this conference on the overall programme, we will present a specific intervention: as part of their interview for admission to the Year in Computing, each student is tasked with solving a Bebras challenge puzzle. They are based on problems that computer scientists often encounter but require only logical thinking (http://www.bebras.uk).
+The programme has concluded its first year and the second cohort is currently well underway. Following last year’s presentation at this conference on the overall programme, we will present a specific intervention: as part of their interview for admission to the Year in Computing, each student is tasked with solving a Bebras challenge puzzle. They are based on problems that computer scientists often encounter but require only logical thinking (<http://www.bebras.uk>).
 Studies suggest that puzzles can be used to predict student performance in learning computing (Cooper et al., 2015). They are also a useful way to allow students to experience a computing-related task that can be carried out without any prior exposure to computing.
 After roughly one month of teaching, we conducted a focus group study with some of the students in the programme. We were interested to see how computing-specific articulations have become part of students’ vocabulary. As part of the focus group, students were asked to reflect on the state of their comprehension of computing. They were also asked to solve another Bebras puzzle. Here, the students were able to work together in solving the puzzles. The interviews were recorded, transcribed, and coded for traces of computing-specific content in the students’ conversations.
 We will present preliminary findings from this study and discuss the use of Bebras puzzles as a predictive factor for students’ disposition to learn computing.",
@@ -491,6 +498,32 @@ Radically different assessment methods were also piloted. Knowledge based assess
 
 The lessons of the peer assessment aspect of this approach, including results and student and tutor reflections, are covered in this presentation.
 ",
+    ),
+
+        array(
+        'time' => '6a',
+        'authors' => array(
+            array('firstName' => 'Adriana',
+            'lastName' => 'Wilde',
+            'email' => '',
+            'department' => '',
+        'institution' => 'University of St Andrews'
+            ),
+            array('firstName' => 'Steve',
+            'lastName' => 'Snow',
+            'email' => '',
+            'department' => '',
+        'institution' => 'University of Southampton'
+            ),
+),
+        'title' => 'Addressing challenges in assessing Human-Computer Interaction at scale',
+        'abstract' => "Human-Computer Interaction (HCI) is a research area which studies how people interact with computer systems. Because of its multidisciplinary nature, HCI modules often sit at unease within the computer science curriculum which is primarily composed by modules typically assessed through objective measures, using quantitative methods. Assessment criteria of HCI topics need to make some subjective measures quantifiable (e.g. aesthetics and creativity). In the case of large classes, it is critical that the assessment can scale appropriately without compromising on the validity of the judgment of how well the learning outcomes have been achieved.
+
+In the HCI module 'Interaction Design' at the University of Southampton, faced with increasing student numbers (from less than 80 to over 160 in two years), lecturers redesigned the assessment to provide timely feedback. The module is assessed by exam and coursework, where the exam includes a large section composed of multiple-choice questions (MCQs). In order to foster higher-order learning, students were encouraged to author MCQs using the platform PeerWise, which proved to be used as a revision aid towards the exam.
+
+In the coursework, students are required to conduct qualitative research, which in turns informs the creation of prototypes for technical solutions to problems from diverse areas of interest. Providing student such diversity of choices encourages creativity and freedom, as well as their application of the theoretical background of human-computer interaction.
+
+This presentation explains the authors' approach to assessment, both in supporting the creation of MCQs and exam revision, as well as in how the medium of video allowed for the expression of creativity and application of knowledge, whilst allowing for considerable ease of marking compared with traditional alternatives, which allowed for the provision of timely feedback to students.",
     ),
 
 );
