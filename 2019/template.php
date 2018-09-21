@@ -146,7 +146,7 @@ a.plainlink:hover{
   </div>
   <div class="ui inverted vertical footer segment">
     <div class="ui center aligned container">
-      <div class="ui stackable divided inverted middle aligned four column grid">
+      <div class="ui stackable divided inverted middle aligned five column grid">
         <div class="row">
         <div class="column">
           <h4 class="ui inverted header">Menu</h4>
@@ -154,16 +154,21 @@ a.plainlink:hover{
 <?php $page->menuLinks();?>
           </div>
         </div>
+
         <div class="column">
+          <img class="ui centered small image" src="media/images/SIGCSElogo.gif" alt="In cooperation with ACM SIGCSE"/>
+        </div>
+
+
+
+                                                     <div class="column">
           <img class="ui centered medium image" src="media/images/DU_Logo_Large_White.png" alt="Durham University Logo"/>
         </div>
-	<!--
-        <div class="column">
-          <img class="ui centered small image" src="media/images/HEA_logo_white.png" alt="Supported by HEA"/>
-        </div>
--->
         <div class="column">
           <img class="ui centered small image" src="media/images/CPHClogoblack800.png" alt="Council of Heads and Professors of Computing"/>
+        </div>
+        <div class="column">
+          <img class="ui centered small image" src="media/images/IoC_logo_transparent.png" alt="Insitute of Coding"/>
         </div>
         </div>
       </div>
