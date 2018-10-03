@@ -111,10 +111,9 @@ Based on the outcomes of these reviews the programme committee will then decide 
 * Shelagh	    Keogh	_University of Northumbria_
 * Matthew     Poole	_University of Portsmouth_
 * Rob	    Powell	_Durham University_
-* Tom 	    Prickett	_Universithy of Northumbria_
-* Sue	    Sentence	_Raspberry Pi Foundation_
+* Tom 	    Prickett	_University of Northumbria_
 * Sally	    Smith	_Edinburgh Napier University_
-* Jane	    Waite	  _King's College London_
+* Jane	    Waite	  _Queen Mary University of London_
 * Michel Wermelinger _Open University_
 * Adriana	    Wilde		  _University of St Andrews_
 

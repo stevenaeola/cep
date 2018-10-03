@@ -1,1 +1,1 @@
-Registration for the conference will be open here
+Registration for the conference will be open here. The registration fee for the conference will be £100, including lunch and refreshments.
