@@ -108,7 +108,7 @@ Based on the outcomes of these reviews the programme committee will then decide 
 * Alan Hayes _University of Bath_
 * Sardar	    Jaf		_Durham University_
 * Samia	    Kamal	_Oxford Brookes University_
-* Shelagh	    Keogh	_University of Northumbria_
+* Shelagh   Keogh	_University of Northumbria_
 * Matthew     Poole	_University of Portsmouth_
 * Rob	    Powell	_Durham University_
 * Tom 	    Prickett	_University of Northumbria_

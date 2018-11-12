@@ -155,10 +155,11 @@ a.plainlink:hover{
           </div>
         </div>
 
+                                                     <!--
         <div class="column">
           <img class="ui centered small image" src="media/images/SIGCSElogo.gif" alt="In cooperation with ACM SIGCSE"/>
         </div>
-
+-->
 
 
                                                      <div class="column">

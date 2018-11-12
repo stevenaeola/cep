@@ -1,4 +1,4 @@
-Computer Science @ Durham is delighted to host this third conference in computing education practice, in association with [ACM SIGCSE](https://sigcse.org/sigcse/).  CEP provides
+Computer Science @ Durham is delighted to host this third conference in computing education practice.  CEP provides
 an opportunity to discuss with like-minded people the challenges and
 opportunities that face us, and how these are changing.  As well as a
 platform for presenting, exploring and sharing ideas and new
