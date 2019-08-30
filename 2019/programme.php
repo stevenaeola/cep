@@ -4,42 +4,43 @@ include "papers.php";
 
 $sessions=array(
 array (
-    "1a" => "9:15",
-    "1b" => "9:35",
-    "1c" => "9:55",
+//    "1a" => "9:20", // keynote
+    "1b" => "9:40",  // 1
+    "1c" => "9:55"), // 2
+array(
+    "2a" => "10:25", // 3
+    "2b" => "10:40", // 4
+    "2c" => "10:55", // 5
+    "2d" => "11:10" // 6
 ),
 array(
-    "2a" => "10:20",
-    "2b" => "10:40",
-    "2c" => "11:00",
-),
-array(
-    "3a" => "11:40",
-    "3b" => "12:00",
-    "3c" => "12:20"),
+    "3a" => "11:55", //7
+    "3b" => "12:10", //8
+    "3c" => "12:25"), //9
 
 array (
-    "4a" => "13:30",
-    "4b" => "13:50",
-    "4c" => "14:20"
+    "4a" => "13:40", //keynote
+    "4b" => "14:00", // 10
+    "4c" => "14:15", //11
+    "4d" => "14:30" //12
 ),
 
 array (
-    "5a" => "14:45",
-    "5b" => "15:05",
-    "5c" => "15:25",
+    "5a" => "15:00", //13
+    "5b" => "15:15", //14
+    "5c" => "15:30" //15
 ),
 array (
-    "6a" => "15:50",
-    "6b" => "16:10",
-    "6c" => "16:30"),
+    "6a" => "16:15" //AGM
+)
 );
 
 $page->which = "programme";
 $page->title = "Programme";
 $page->strapline = "<h2>Timings and topics</h2>";
+$page->content .= "<p>The proceedings are published in the <a href='https://dl.acm.org/citation.cfm?id=3294016'>ACM Digital Library</a>";
 $page->content .= sessions($sessions);
-//$page->content .= $page->load("keynotes","html");
+$page->content .= $page->load("keynotes","html");
 $page->content .= abstracts();
 
 
@@ -83,11 +84,10 @@ function authors($authors){
 }
 function sessions($sessions){
     $ret="
-<p>* Presenting authors are marked with an asterisk.</p>
 <h1 class='logotext'>Tuesday 8th January 2019</h1>
 <table class='ui celled table'>
 <tbody>
-<tr><td></td><td class='active'>Pre-conference workshop</td></td></tr>
+<tr><td></td><td class='active'>Pre-conference workshop</td><td></td></tr>
     <tr><td class='active'>14:30</td><td> What's happening in CompEd? Members of research groups to give a short
 summary (no more than five minutes) of computing education research
 activity that is taking place at their institution.<br/>
@@ -102,7 +102,7 @@ contributions);</li>
 </ul>
 
 After the presentations, there will be time for more general discussion
-about current work, the funding landscape and potential future directions. If you would like to join this session, please submit a short summary (2-3 sentences) to this form: <a href='https://goo.gl/forms/zfODQWmQdVxRbspx1'>https://goo.gl/forms/zfODQWmQdVxRbspx1</a> by mid-day Friday 21st December.</td><td class='active'></td></tr>
+about current work, the funding landscape and potential future directions. If you would like to join this session, please submit a short summary (2-3 sentences) to this form: <a href='https://goo.gl/forms/zfODQWmQdVxRbspx1'>https://goo.gl/forms/zfODQWmQdVxRbspx1</a> by mid-day Friday 21st December.</td><td class='active'>E240</td></tr>
 </tbody>
 </table>
 
@@ -113,50 +113,42 @@ about current work, the funding landscape and potential future directions. If yo
 <tr><td></td><td class='active'>Main conference</td><td></td></tr>
     <tr><td class='active'>9:00</td><td>Arrival and registration</td><td class='active'>Christopherson building entrance</td></tr>
     <tr><td class='active'>9:15</td><td>Welcome <div class='person'>Alexandra Cristea and Steven Bradley <div class='inst'>Durham University</div></div></td><td class='active'>E005 Christopherson</td></tr>
-    <tr><td class='active'>9:20</td><td>Keynote<div class='person'>Andrew McGettrick <div class='inst'>University of Strathclyde</div></div></td><td class='active'>E005 Christopherson</td></tr>
-    <tr><td class='active'>9:40</td><td>Talks with refreshment break</td><td class='active'>E005 Christopherson</td></tr>
+    <tr><td class='active'>9:20</td><td><a href='#keynote'>Keynote</a><div class='person'>Andrew McGettrick <div class='inst'>University of Strathclyde</div></div></td><td class='active'>E005 Christopherson</td></tr>";
 
-    <tr><td class='active'>12:40</td><td>Lunch and demonstrations</td><td class='active'>Atrium</td></tr>
-    <tr><td class='active'>13:30</td><td>Talks, refreshments<br/>ACM UK&Ireland SIGCSE <br/> Annual General Meeting</td><td class='active'>E005 Christopherson</td></tr>
-
-
-";
-/*
-    "
-    <tr><td class='two wide'></td><td class='active ten wide'>Session 1: Curriculum</td><td class='active two wide'>E005 </td></tr>";
+        $ret .=     "
+    <tr><td class='two wide'></td><td class='active ten wide'>Session 1: Projects</td><td class='active two wide'>E005 </td></tr>";
 
         $ret.= session($sessions[0]);
-        $ret .= "<tr><td></td><td class='active'>Session 2: Ethics and Identity</td><td class='active'>E005 </td></tr>\n";
-        $ret.= session($sessions[1]);
-        $ret .= "<tr><td>15:25</td><td class='active'>Poster Session 1</td></tr>\n";
-        $ret .= "<tr><td></td><td class='active'>Session 3: Programming</td><td class='active'>E005 </td></tr>\n";
-        $ret.= session($sessions[2]);
-
         
-        $ret .= "<tr><td>16:55</td><td class='active'>Refreshment Break</td></tr>\n";
+        $ret .=     "
+    <tr><td class='two wide'></td><td class='active ten wide'>Session 2: Pedagogy</td><td class='active two wide'>E005 </td></tr>";
 
-        $ret .= "<tr><td></td><td class='active'>Session 4: Pedagogy</td><td class='active'>E005 </td></tr>\n";
+        $ret.= session($sessions[1]);
+        
+        $ret .=     "
+    <tr><td class='two wide'></td><td class='active ten wide'>Session 3: Data and data security</td><td class='active two wide'>E005 </td></tr>";
+
+        $ret.= session($sessions[2]);
+        
+        $ret .="
+    <tr><td class='active'>12:40</td><td>Lunch and demonstrations</td><td class='active'>Atrium/E240</td></tr>
+
+";
+        $ret .=     "
+    <tr><td class='two wide'></td><td class='active ten wide'>Session 4: Engagement</td><td class='active two wide'>E005 </td></tr>";
+
         $ret.= session($sessions[3]);
         
-        $ret .="</tbody></table>";
+        $ret .=     "
+    <tr><td class='two wide'></td><td class='active ten wide'>Session 5: Programming</td><td class='active two wide'>E005 </td></tr>";
 
-        $ret .= "<h1 class='logotext'>Friday 12th January</h1><table class='ui celled table'><tbody>";
-
-        $ret .= "<tr><td class='two wide'></td><td class='active ten wide'>Session 5: Transitions and outreach</td><td class='active two wide'>E005 </td></tr>\n";
         $ret.= session($sessions[4]);
         
-        $ret .= "<tr><td>10:00</td><td class='active'>Poster Session 2</td></tr>\n";
-        $ret .= "<tr><td>10:45</td><td class='active'>Refreshment Break</td></tr>\n";
+        $ret .="
+    <tr><td class='active'>16:00</td><td>ACM UK & Ireland SIGCSE Annual General Meeting</td><td class='active'>E005 Christopherson</td></tr>
 
-        $ret .= "<tr><td></td><td class='active'>Session 6: Assessment I</td><td class='active'>E005 </td></tr>\n";
-        $ret.= session($sessions[5]);
-
-        $ret .= "<tr><td></td><td class='active'>Session 7: Assessment II</td><td class='active'>E005 </td></tr>\n";
-        $ret.= session($sessions[6]);
-
-        $ret.= "<tr><td class='active'>13:00</td><td>Lunch</td><td class='active'>Atrium</td></tr>";
-*/
-        $ret.= "<tr><td class='active'>17:00</td><td>Conference close</td><td class='active'></td></tr>";
+";
+        $ret.= "<tr><td class='active'>16:30</td><td>Conference close</td><td class='active'></td></tr>";
 
         $ret .="</tbody></table>";
     

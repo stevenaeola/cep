@@ -16,5 +16,5 @@ How will the conference run?
 
 CEP aims to be a community, not a series of proceedings; everybody is encouraged to participate even if they are not presenting.  During the conference there will be presentation sessions, and a poster session, with discussion time at the end of each session plus wider opportunities for networking.
 
-The conference will run on Wednesday 9th January 2019, with a research meeting and AGM of the UK and Ireland ACM SIGCSE on the previous afternoon, Tuesday 8th January.
+The conference will run on Wednesday 9th January 2019, with a research meeting on the previous afternoon, Tuesday 8th January.
 
