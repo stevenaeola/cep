@@ -1,0 +1,3 @@
+Register for the conference by following the link below. The registration fee for the conference is £100, including lunch and refreshments. Contributing authors need to register by 7th December 2018, other attendees need to register by 4th January 2019. You may optionally book university accommodation for the night of 8th January along with your registration.
+
+<https://www.dur.ac.uk/conference.booking/details/?id=1075>

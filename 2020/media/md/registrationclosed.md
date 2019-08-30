@@ -1,0 +1,1 @@
+Registration for the conference is now closed
