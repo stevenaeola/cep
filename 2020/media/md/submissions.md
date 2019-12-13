@@ -1,5 +1,6 @@
 
-CEP is a forum for showcasing and sharing computing education practice. Accepted submissions will be published in the [ACM Digital Library](https://dl.acm.org/), provided the presenter registers for and attends the conference.
+CEP is a forum for showcasing and sharing computing education practice.
+Accepted submissions will be published in the [ACM Digital Library](https://dl.acm.org/), provided the presenter registers for and attends the conference.
 
 CEP submissions should allow us to:
 
@@ -16,9 +17,8 @@ Given below are details of
 
 # Submission content {#submission-content}
 
-Submissions should be no more than 4 pages. You should aim to have __something in every category__, but you do not have to use them in the order presented. A different organisation may make better sense for your submission. The descriptive text is not mandatory, but is there to motivate and stimulate your thinking.
+Submissions should be no more than 4 pages. You __MUST__ follow the CEP submission structure. The descriptive text is not mandatory, but is there to motivate and stimulate your thinking.
 
-We welcome submissions related to "Teaching computing to non-computing students", which is a particular focus of the Institute of Coding.
 
 <table class="ui definition table">
 <tbody>
@@ -80,9 +80,11 @@ We welcome submissions related to "Teaching computing to non-computing students"
 
 # Submission format and process {#submission-format-and-process}
 
-All submissions must be in the ACM Proceedings Template to be accepted for publication in the ACM Digital library, using [Word and LaTeX templates](https://www.acm.org/publications/proceedings-template).
+All submissions must be in the ACM Proceedings Template to be accepted for publication in the ACM Digital library, using [Word and LaTeX templates](https://www.acm.org/publications/proceedings-template). Submitters MUST follow the CEP format detailed above.
 
-Submission and  is through easychair at [https://easychair.org/conferences/?conf=cep2019](https://easychair.org/conferences/?conf=cep2019).
+
+Submission and  is through easychair at [https://easychair.org/conferences/?conf=cep2020](https://easychair.org/conferences/?conf=cep2020).
+
 
 # Review Process {#review-process}
 
@@ -91,7 +93,7 @@ Submissions will be made through easychair, and double blind reviewed by two mem
 * Does the paper adequately describe the sort of institution/classroom in which it is used?
 * Could you implement this? Is there enough information? Is it the right information?
 * Whether the evidence of effectiveness is compelling
-* Whether this paper should be accepted for CEP 2019
+* Whether this paper should be accepted for CEP 2020
 
 It is expected that each review will take about 30 minutes.
 
@@ -99,22 +101,20 @@ Based on the outcomes of these reviews the programme committee will then decide 
 
 # Programme Committee {#programme-committee}
 
-* Steven	    Bradley (Chair)	_Durham University_
-* Quintin	    Cutts	_University of Glasgow_
-* Marie	    Devlin	_Newcastle University_
-* Sarah	    Drummond	_Durham University_
+* Marie	    Devlin (Chair)	_Newcastle University_
+* Brett	    Becker _University College Dublin_
+* Steven	    Bradley 	_Durham University_
 * Sally	    Fincher	_University of Kent_
-* Neil	    Gordon	_University of Hull_
-* Alan Hayes _University of Bath_
-* Sardar	    Jaf		_Durham University_
-* Samia	    Kamal	_Oxford Brookes University_
-* Shelagh   Keogh	_University of Northumbria_
+* Laura	    Heels	_Newcastle University_
+* Duncan    Hull	_University of Manchester_
+* Faron	    Moller	_Swansea University_
+* Lindsay   Marshall	_Newcastle University_
+* Chris	    Napier _Newcastle University_
 * Matthew     Poole	_University of Portsmouth_
-* Rob	    Powell	_Durham University_
 * Tom 	    Prickett	_University of Northumbria_
+* Steve	    Riddle	_Newcastle University_
 * Sally	    Smith	_Edinburgh Napier University_
-* Jane	    Waite	  _Queen Mary University of London_
-* Michel Wermelinger _Open University_
-* Adriana	    Wilde		  _University of St Andrews_
+* Rebecca   Strachan	_University of Northumbria_
+* Anna	    Vasilchenko	    _Newcastle University_
 
-General Chair is Alexandra Cristea, Durham University
+General Chair is Steven Bradley, Durham University

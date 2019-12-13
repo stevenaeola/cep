@@ -168,9 +168,11 @@ a.plainlink:hover{
         <div class="column">
           <img class="ui centered small image" src="media/images/CPHClogoblack800.png" alt="Council of Heads and Professors of Computing"/>
         </div>
+<!--                                                     
         <div class="column">
           <img class="ui centered small image" src="media/images/IoC_logo_transparent.png" alt="Insitute of Coding"/>
         </div>
+-->                                                     
         </div>
       </div>
       <div class="ui inverted section divider"></div>
