@@ -4,10 +4,10 @@ include "papers.php";
 
 $sessions=array(
 array (
-    "1a" => "9:20", 
-    "1b" => "9:40",  
-    "1c" => "9:55", 
-    "1d" => "10:10"), 
+    "1a" => "9:35", 
+    "1b" => "9:50",  
+    "1c" => "10:05", 
+    "1d" => "10:20"), 
 array(
     "2a" => "11:05", 
     "2b" => "11:20", 
@@ -20,8 +20,8 @@ array(
 
 array (
     "4a" => "13:40", 
-    "4b" => "14:00", 
-    "4c" => "14:15", 
+    "4b" => "13:55", 
+    "4c" => "14:10", 
 ),
 
 array (
@@ -91,7 +91,7 @@ function sessions($sessions){
 
 Research speed dating: 1 hour of one-to-one discussion about Computer Science Education research interests.<br>
 From these discussion we will then form discussion groups around potential collaborative projects.
-</td><td class='active'></td></tr>
+</td><td class='active'>E240 in Computer Science/Engineering building</td></tr>
 
 
 <tr><td></td><td class='active'>Conference dinner (separate booking required)</td><td></td></tr>
