@@ -76,9 +76,9 @@ Submissions should be no more than 4 double-column pages, including the bibliogr
 
 CEP follows a double-blind review process. Submissions should be anonymous, without information that enables identifying the authors or their institutions. References to your own previous work should be in the third person.
 
-Please use the ACM Proceedings Template, using [Word and LaTeX templates](https://www.acm.org/publications/proceedings-template). The submission format will be set by the publisher and announced later.
+Please use the ACM Proceedings Template (Interim), using [Word and LaTeX templates](https://www.acm.org/publications/proceedings-template). The submission format will be set by the publisher and announced later.
 
-Submission is through EasyChair at <https://easychair.org/conferences/?conf=cep21>.
+CEP follows a two-stage process with first a submission of an abstract of about 100-150 words, followed a week later by the full 4-page paper (see the Dates page). Both submissions are via EasyChair at <https://easychair.org/conferences/?conf=cep21>.
 
 For any queries, please contact the [organisers](organisation.php).
 

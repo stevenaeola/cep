@@ -160,6 +160,7 @@ a.plainlink:hover{
           <img class="ui centered small image" src="media/images/SIGCSElogo.gif" alt="In cooperation with ACM SIGCSE"/>
         </div>
 -->
+<div class='column'><img class='ui centered medium image ' src='media/images/ACM_ChapterCon_v1a.jpg' alt='ACM chapter conference logo'/></div> 
 
 
                                                      <div class="column">
